@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/27545/CLionProjects/untitled1/cmake-build-debug/GraphList.h
+iostream
+-
+cstdio
+-
+
+C:/Users/27545/CLionProjects/untitled1/cmake-build-debug/TopologicalSort.h
+
+C:/Users/27545/CLionProjects/untitled1/main.cpp
+cstdlib
+-
+cmake-build-debug/GraphList.h
+C:/Users/27545/CLionProjects/untitled1/cmake-build-debug/GraphList.h
+cmake-build-debug/TopologicalSort.h
+C:/Users/27545/CLionProjects/untitled1/cmake-build-debug/TopologicalSort.h
+
